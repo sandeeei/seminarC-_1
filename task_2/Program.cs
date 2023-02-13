@@ -13,10 +13,10 @@ int secondValue = Convert.ToInt32(Console.ReadLine());
 
 if (firstValue>secondValue)
 {
-     Console.WriteLine("Чиcло " + firstValue + " является наибольшим числом " + secondValue+"  является наименьшим числом  ");
+     Console.WriteLine("Первое чиcло " + firstValue + " является наибольшим числом " + secondValue+"  второе число является наименьшим числом  ");
 }
 
 else
 {
-    Console.WriteLine("Чиcло " + secondValue + " является наибольшим числом " + firstValue+"  является наименьшим числом  ");
+    Console.WriteLine("Второе чиcло " + secondValue + " является наибольшим числом " + firstValue+"  Первое число является наименьшим числом  ");
 }
